@@ -1,12 +1,8 @@
-.header-bg{
-    
-}
-
 .header-conteudo{
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
-
+    align-items: center;
 }
 
 .header-img{
@@ -20,4 +16,9 @@
 .header-menu ul{
     display: flex;
     gap: 40px;
+}
+
+
+.header-menu a:hover{
+    color: #FD1E23;
 }
