@@ -1,0 +1,10 @@
+.header-conteudo{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-menu ul{
+    display: flex;
+    gap: 40px;
+}
