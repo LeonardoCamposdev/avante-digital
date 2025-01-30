@@ -3,3 +3,6 @@
 
 @import "utilidades/typography.css";
 @import "utilidades/coloors.css";
+
+
+@import "./home/introducao.css";

@@ -1,7 +1,20 @@
+.header-bg{
+    
+}
+
 .header-conteudo{
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
+
+}
+
+.header-img{
+    z-index: 555;
+}
+
+.header-menu{
+    z-index: 555;
 }
 
 .header-menu ul{
