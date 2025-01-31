@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>document.documentElement.className += ' js';</script>
     <link rel="shortcut icon" href="icons/logo-teste.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <title>Avante Digital</title>
@@ -13,7 +14,8 @@
         <div class="header-conteudo">
             <div class="header-img"><a href="./"><img src="icons/logo-teste.png" alt="logo"></a></div>
                 <nav class="header-menu">
-                    <ul class="font-saira">
+                    <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+                    <ul class="font-saira" data-menu="list" id="menu">
                         <li><a href="./" class="cor-0">Início</a></li>
                         <li><a href="#agencia" class="cor-0">Agência</a></li>
                         <li><a href="#oque-fazemos" class="cor-0">O que fazemos</a></li>
@@ -61,4 +63,5 @@
         </div>
     </main>
 </body>
+<script type="module" src="./js/script.js"></script>
 </html>

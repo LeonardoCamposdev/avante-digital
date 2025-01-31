@@ -1,5 +1,6 @@
 @import "global/global.css";
 @import "global/header.css";
+@import "./global/menu-mobile.css";
 
 @import "utilidades/typography.css";
 @import "utilidades/coloors.css";
