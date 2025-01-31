@@ -5,7 +5,7 @@
 @media (max-width:700px){
     .js [data-menu="button"]{
         display: flex;
-        background: linear-gradient(135deg, #7e0101 30%,#e42222);
+        background: linear-gradient(135deg, #b10808c9 20%, #af0b0b,#b108088a,#e42222);
         border: none;
         padding: .5rem 1rem;
         border-radius: 4px;

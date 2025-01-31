@@ -1,5 +1,9 @@
+.header-bg{
+    background-color: var(--cor-1);
+}
+
 .header-conteudo{
-    margin-top: 40px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
