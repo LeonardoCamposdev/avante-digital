@@ -2,21 +2,20 @@
     background-color: #D40202;
     height: 550px;
 }
-.introducao-conteudo {
-}  
 
 .intrucao-item1{
     display: flex;
     gap: 40px;
     justify-content: center;
     align-items: center;
-    width: 850px;
+    height: 460px;
+    width: 1075px;
     margin: 0 auto; 
     background-color: #D40202;
     border-radius: 16px;
     box-shadow: -1px -1px 12px 2px #00000060;
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -45%);
 }
@@ -26,14 +25,20 @@
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .introducao-conteudo p{
     text-align: center;
     padding-left: 15px;
+    margin-bottom: 40px;
 }
 
 .introducao-conteudo img{
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
+}
+
+.introducao-div{
+    justify-items: center;
 }

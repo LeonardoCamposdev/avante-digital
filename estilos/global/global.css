@@ -11,3 +11,20 @@ a{
 li{
     list-style: none;
 }
+
+.button-padrao1{
+    background-color: var(--cor-0);
+    color: #D40202;
+    padding: 12px 60px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.button-padrao1:hover{
+    background: linear-gradient(135deg, #f83e3ec9 20%, #af0b0b,#b108088a,#ff4242);
+    color: var(--cor-0);
+   
+}
