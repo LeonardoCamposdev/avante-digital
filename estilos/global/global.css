@@ -16,6 +16,12 @@ img{
     max-width: 100%;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 20px 0 20px;
+}
+
 .button-padrao1{
     background-color: var(--cor-0);
     color: #D40202;
