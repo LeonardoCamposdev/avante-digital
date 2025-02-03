@@ -8,16 +8,10 @@
     gap: 40px;
     justify-content: center;
     align-items: center;
-    height: 460px;
-    width: 1075px;
-    margin: 0 auto; 
+    width: 1000px;
     background-color: #D40202;
     border-radius: 16px;
     box-shadow: -1px -1px 12px 2px #00000060;
-    position: absolute;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -45%);
 }
 
 .intrucao-item1 h1{
@@ -37,8 +31,22 @@
 .introducao-conteudo img{
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
+
 }
 
 .introducao-div{
     justify-items: center;
+    width: 422px;
 }
+
+.carrosel {
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+
+  .container-teste {
+    display: flex;
+    transition: 0.7s ease-in-out;
+  }
