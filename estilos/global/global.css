@@ -12,6 +12,10 @@ li{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 .button-padrao1{
     background-color: var(--cor-0);
     color: #D40202;

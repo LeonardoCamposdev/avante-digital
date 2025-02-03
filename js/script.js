@@ -3,4 +3,3 @@ import initIntroducaoCarrosel from "./modules/introducao-carrosel.js";
 
 
 initMenuMobile();
-initIntroducaoCarrosel();

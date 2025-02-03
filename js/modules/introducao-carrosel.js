@@ -12,9 +12,9 @@ export default function initIntroducaoCarrosel(){
       idx = 0;
     }
 
-    imgs.style.transform = `translateX(${-idx * 1000}px)`;
+    imgs.style.transform = `translateX(${-idx * 1075}px)`;
   }
 
-  setInterval(carrosel, 1800);
+  setInterval(carrosel, 2800);
 }
 
