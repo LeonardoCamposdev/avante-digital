@@ -49,6 +49,8 @@
 }
 
 
-@media (max-width: 1090px){
+@media (max-width: 840px){
+    .intrucao-item1{
+        grid-template-columns: 1fr;
     
 }
