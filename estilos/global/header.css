@@ -22,6 +22,10 @@
     gap: 40px;
 }
 
+.header-menu li{
+    padding-bottom: 20px;
+}
+
 
 .header-menu a:hover{
     color: #FD1E23;
