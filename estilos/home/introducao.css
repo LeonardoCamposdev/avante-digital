@@ -19,11 +19,11 @@
     align-items: center;
 }
 
-.introducao-div{
+.introducao-texto{
     justify-items: center;
 }
 
-.introducao-div h1{
+.introducao-texto h1{
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
@@ -32,7 +32,8 @@
     margin-bottom: 16px;
 }
 
-.introducao-div p{
+.introducao-texto p{
+    font-size: 1.1rem;
     text-align: center;
     padding: 10px;
     margin-bottom: 40px;
@@ -44,7 +45,7 @@
 }
 
 
-@media (max-width:835px){
+@media (max-width:865px){
     .introducao-conteudo{
         grid-template-columns: 1fr;
     }
@@ -53,7 +54,7 @@
         max-width: 541px;
     }
 
-    .introducao-div{
+    .introducao-texto{
         padding: 40px;
         margin-bottom: 40px;
     }
