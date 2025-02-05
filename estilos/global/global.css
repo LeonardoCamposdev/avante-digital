@@ -24,20 +24,21 @@ img{
 
 .button-padrao1{
     background-color: var(--cor-0);
-    color: #D40202;
+    color: var(--cor-4);
     padding: 12px 60px;
     font-size: 1.2rem;
     font-weight: 500;
     border: none;
     border-radius: 26px;
     cursor: pointer;
+    border: 3px solid var(--cor-0);
 }
 
 .button-padrao1:hover{
-    background: linear-gradient(135deg, #f83e3ec9 20%, #af0b0b,#b108088a,#ff4242);
+    background: var(--cor-4);
     color: var(--cor-0);
-   
-}
+   border: 3px solid var(--cor-0);
+}   
 
 .button-padrao2{
     background-color: var(--cor-4);
@@ -54,11 +55,4 @@ img{
     background-color: #da0404;
     color: var(--cor-0);
    
-}
-
-video{
-    border-top-right-radius: 26px;
-    border-bottom-right-radius: 26px;
-    width: 640px;
-
 }
