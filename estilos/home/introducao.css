@@ -1,5 +1,5 @@
 .introducao-bg{
-    background-color: #D40202;
+    background-color: var(--cor-4);
     padding-bottom: 100px;
 }
 
@@ -40,6 +40,7 @@
 }
 
 .introducao-conteudo img{
+    border-bottom-left-radius: 96px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
 }
@@ -60,8 +61,8 @@
     }
 
     .introducao-conteudo img{
+        border-bottom-left-radius: 96px;
         border-top-right-radius: 0px;
-        border-bottom-left-radius: 16px;
         border-bottom-right-radius: 16px;
     }
 

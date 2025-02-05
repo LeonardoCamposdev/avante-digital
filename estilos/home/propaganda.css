@@ -1,0 +1,23 @@
+.propaganda-lista li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.propaganda-texto{
+
+}
+
+.propaganda-texto h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+.propaganda-texto p{
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    padding: 10px;
+}

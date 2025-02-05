@@ -28,5 +28,5 @@
 
 
 .header-menu a:hover{
-    color: #FD1E23;
+    color: var(--cor-4);
 }
