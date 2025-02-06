@@ -58,3 +58,10 @@
     margin: 0 auto;
     text-align: center;
 }
+
+@media (max-width:1143px){
+    .servicos-lista li:nth-last-child(2) {
+        margin-bottom: 0px;
+    }
+    
+}
