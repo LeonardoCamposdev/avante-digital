@@ -23,7 +23,7 @@
 .propaganda-lista-1 video{
     border-top-right-radius: 26px;
     border-bottom-right-radius: 26px;
-    width: 640px;
+    width: 680px;
 }
 
 @media (max-width:1210px){
@@ -110,7 +110,7 @@
 .propaganda-lista-2 video{
     border-top-left-radius: 26px;
     border-bottom-left-radius: 26px;
-    width: 640px;
+    width: 687px;
     display: block;
     justify-self: right;
 }
