@@ -1,72 +1,171 @@
-.propaganda-lista li{
+.propaganda-lista-1 li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
+    margin-bottom: 100px;
 }
 
-.propaganda-texto h1{
+.propaganda-lista-1 .propaganda-texto h1{
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 16px;
     padding: 10px;
 }
 
-.propaganda-texto p{
+.propaganda-lista-1 .propaganda-texto p{
     font-size: 1.1rem;
     width: 40ch;
     margin-bottom: 40px;
     padding: 10px;
 }
 
-video{
+.propaganda-lista-1 video{
     border-top-right-radius: 26px;
     border-bottom-right-radius: 26px;
     width: 640px;
 }
 
+@media (max-width:1210px){
+    .propaganda-lista-1 .propaganda-texto p{
+        width: 25ch;
+    }
+}
+
 @media (max-width:1058px){
-    .propaganda-lista li{
+    .propaganda-lista-1 li{
         grid-template-columns: 1fr;
         gap: 20px;
         justify-items: center;
+        margin-bottom: 40px;
     } 
 
-    video{
+    .propaganda-lista-1 video{
         border-radius: 26px;
         width: 640px;
     }
 
-    .propaganda-texto h1{
+    .propaganda-lista-1 .propaganda-texto h1{
         margin-bottom: 0px;
     }
     
+    .propaganda-lista-1 .propaganda-texto p{
+        width: 40ch;
+    }
 }
 
 @media (max-width:760px){
-    video{
+    .propaganda-lista-1 video{
         width: 540px;
     }
 }
 
 @media (max-width:660px){
-    video{
+    .propaganda-lista-1 video{
         width: 440px;
     }
 }
 
 @media (max-width:520px){
-    video{
+    .propaganda-lista-1 video{
         width: 380px;
     }
 
-    .propaganda-texto p{
+    .propaganda-lista-1 .propaganda-texto p{
         width: 30ch;
     }
 }
 
 @media (max-width:470px){
-    video{
+    .propaganda-lista-1     video{
+        width: 360px;
+    }
+}
+
+/* PROPAGANDA LISTA 2 */
+
+.propaganda-lista-2 li{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 60px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+
+.propaganda-lista-2 .propaganda-texto h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+.propaganda-lista-2 .propaganda-texto p{
+    font-size: 1.1rem;
+    width: 40ch;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.propaganda-lista-2 video{
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    width: 640px;
+    display: block;
+    justify-self: right;
+}
+
+@media (max-width:1210px){
+    .propaganda-lista-2 .propaganda-texto p{
+        width: 25ch;
+    }
+}
+
+@media (max-width:1058px){
+    .propaganda-lista-2 li{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+    } 
+
+    .propaganda-lista-2 video{
+        border-radius: 26px;
+        width: 640px;
+    }
+
+    .propaganda-lista-2 .propaganda-texto h1{
+        margin-bottom: 0px;
+    }
+    
+    .propaganda-lista-2 .propaganda-texto p{
+        width: 40ch;
+    }
+}
+
+@media (max-width:760px){
+    .propaganda-lista-2 video{
+        width: 540px;
+    }
+}
+
+@media (max-width:660px){
+    .propaganda-lista-2 video{
+        width: 440px;
+    }
+}
+
+@media (max-width:520px){
+    .propaganda-lista-2 video{
+        width: 380px;
+    }
+
+    .propaganda-lista-2 .propaganda-texto p{
+        width: 30ch;
+    }
+}
+
+@media (max-width:470px){
+    .propaganda-lista-2  video{
         width: 360px;
     }
 }
