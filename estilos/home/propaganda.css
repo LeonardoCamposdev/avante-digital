@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .propaganda-lista-1 .propaganda-texto h1{
@@ -90,7 +90,7 @@
     gap: 60px;
     align-items: center;
     justify-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .propaganda-lista-2 .propaganda-texto h1{
