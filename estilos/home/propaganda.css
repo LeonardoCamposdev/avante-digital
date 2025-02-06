@@ -40,6 +40,10 @@
         margin-bottom: 40px;
     } 
 
+    .propaganda-texto {
+        grid-row: 1;
+    }
+
     .propaganda-lista-1 video{
         border-radius: 26px;
         width: 640px;
