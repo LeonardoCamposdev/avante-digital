@@ -87,14 +87,16 @@
 }
 
 /* PROPAGANDA LISTA 2 */
-
 .propaganda-lista-2 li{
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
-    justify-items: center;
     margin-bottom: 120px;
+}
+
+.propaganda-texto {
+    margin-left: 40px;
 }
 
 .propaganda-lista-2 .propaganda-texto h1{
@@ -114,7 +116,7 @@
 .propaganda-lista-2 video{
     border-top-left-radius: 26px;
     border-bottom-left-radius: 26px;
-    width: 761px;
+    width: 680px;
     display: block;
     justify-self: right;
 }
