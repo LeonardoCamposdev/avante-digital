@@ -26,12 +26,6 @@
     max-width: 100%;
 }
 
-@media (max-width:1210px){
-    .propaganda-lista-1 .propaganda-texto p{
-        width: 25ch;
-    }
-}
-
 @media (max-width:1058px){
     .propaganda-lista-1 li{
         grid-template-columns: 1fr;
@@ -51,10 +45,6 @@
 
     .propaganda-lista-1 .propaganda-texto h1{
         margin-bottom: 0px;
-    }
-    
-    .propaganda-lista-1 .propaganda-texto p{
-        width: 40ch;
     }
 }
 
@@ -118,12 +108,6 @@
     justify-self: right;
 }
 
-@media (max-width:1210px){
-    .propaganda-lista-2 .propaganda-texto p{
-        width: 25ch;
-    }
-}
-
 @media (max-width:1058px){
     .propaganda-lista-2 li{
         grid-template-columns: 1fr;
@@ -138,10 +122,6 @@
 
     .propaganda-lista-2 .propaganda-texto h1{
         margin-bottom: 0px;
-    }
-    
-    .propaganda-lista-2 .propaganda-texto p{
-        width: 40ch;
     }
 }
 
