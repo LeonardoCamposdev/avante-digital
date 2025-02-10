@@ -113,6 +113,7 @@
         grid-template-columns: 1fr;
         gap: 20px;
         justify-items: center;
+        margin-bottom: 40px;
     } 
 
     .propaganda-lista-2 video{

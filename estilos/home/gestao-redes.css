@@ -78,3 +78,9 @@
     position: inherit;
 }
 }
+
+@media (max-width:650px){
+    .gestao-redes-conteudo {
+        padding: 10px;
+    }
+}
