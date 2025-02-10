@@ -86,7 +86,7 @@
 }
 
 .propaganda-lista-2 .propaganda-texto{
-    margin-left: 0px;
+    margin-left: 40px;
 }
 
 .propaganda-lista-2 .propaganda-texto h1{
@@ -117,6 +117,10 @@
         gap: 20px;
         justify-items: center;
         margin-bottom: 40px;
+    }
+
+    .propaganda-lista-2 .propaganda-texto{
+        margin-left: 0px;
     }
 
     .propaganda-lista-2 video{
