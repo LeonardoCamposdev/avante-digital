@@ -1,9 +1,8 @@
 .caminhos-container{
     max-width: 1300px;
     margin: 0 auto;
-    padding: 70px 20px 100px 20px;
+    padding: 140px 20px 100px 20px;
 }
-
 
 .caminhos-conteudo > h1{
     text-align: center;
@@ -52,7 +51,11 @@
 
 
 @media (max-width:980px){
-    .caminhos-lista{
-        grid-template-columns: 1fr;
+.caminhos-container{
+     padding: 70px 20px 100px 20px;
     }
+
+.caminhos-lista{
+    grid-template-columns: 1fr;
+    }   
 }
