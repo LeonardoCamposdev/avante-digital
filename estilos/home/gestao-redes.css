@@ -3,6 +3,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 700px;
 }
 
 .gestao-redes-container{
@@ -73,6 +74,9 @@
 }
 
 @media (max-width:980px){
+.gestao-redes-bg{
+    height: auto;
+}
     
 .gestao-redes-lista{
     display: grid;
