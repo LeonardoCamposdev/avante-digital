@@ -26,6 +26,7 @@
 }
 
 .servicos-lista li{
+    height: 230px;
     background-color: var(--cor-2);
     padding: 16px;
     border-radius: 12px;
