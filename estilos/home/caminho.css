@@ -33,7 +33,7 @@
     background: url(../../icons/seta-direita.png);
     background-repeat: no-repeat;
     position: absolute;
-    top: 50%;
+    top: 45%;
     right: -60px;
     z-index: 2222;
 }
