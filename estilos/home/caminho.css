@@ -34,7 +34,7 @@
     background-repeat: no-repeat;
     position: absolute;
     top: 45%;
-    right: -60px;
+    right: -52px;
     z-index: 2222;
 }
 
@@ -71,5 +71,18 @@
 
 .caminhos-lista{
     grid-template-columns: 1fr;
-    }   
+    }
+
+    .caminhos-lista .li-seta::after{
+        content: "";
+        display: block;
+        height: 65px;
+        width: 64px;
+        background: url(../../icons/seta-baixo.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 98%;
+        right: 47%;
+        z-index: 2222;
+    }
 }
