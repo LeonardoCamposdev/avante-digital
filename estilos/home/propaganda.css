@@ -1,9 +1,21 @@
+.propagandas-bg{
+    background-color: var(--cor-5);
+}
+
+.propagandas-conteudo{
+    padding: 140px 0px;
+}
+
 .propaganda-lista-1 li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
     margin-bottom: 120px;
+}
+
+.propaganda-lista-1 .last-li{
+    margin-bottom: 0px;
 }
 
 .propaganda-lista-1 .propaganda-texto h1{
