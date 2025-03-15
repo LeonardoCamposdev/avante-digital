@@ -1,0 +1,32 @@
+.footer-bg{
+    background-color: #161619;
+}
+
+.footer-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+.footer-descricao h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.footer-descricao button{
+    margin-bottom: 80px;
+}
+
+.footer-endereco h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+
+@media (max-width:980px){
+    .footer-conteudo{
+        grid-template-columns: 1fr;
+    }
+}
