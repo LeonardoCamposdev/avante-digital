@@ -35,11 +35,25 @@
 
 .footer-redes img:hover{
     border-radius: 50%;
-    box-shadow: 0px 1px 14px 3px #ffffff4f;
+    box-shadow: 0px 1px 14px 3px var(--cor-4);
+}
+
+.footer-contato a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-contato a:hover{
+    color: var(--cor-4);
+}
+
+.footer-creditos{
+    margin-top: 60px;
 }
 
 @media (max-width:980px){
     .footer-conteudo{
         grid-template-columns: 1fr;
+        gap: 40px;
     }
 }
