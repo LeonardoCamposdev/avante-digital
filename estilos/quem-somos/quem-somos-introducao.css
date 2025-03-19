@@ -1,0 +1,15 @@
+.quem-somos-bg{
+    background: url(../../images/fundo-quem-somos.jpg);
+    background-position: center left;
+    background-size: cover;
+}
+
+.quem-somos-conteudo{
+    height: 280px;
+}
+
+.quem-somos-conteudo h1{
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
