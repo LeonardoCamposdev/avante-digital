@@ -13,3 +13,24 @@
     font-weight: 500;
     text-transform: uppercase;
 }
+
+.quem-somos-conteudo h2{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.quem-somos-conteudo h3{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 320px;
+    left: 280px;
+}
+
+
+
