@@ -33,4 +33,47 @@
 }
 
 
+@media (max-width:830px){
+    .quem-somos-conteudo h3{
+        font-size: 5rem;
+        font-weight: 600;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 330px;
+        left: 195px;
+    }
+}
 
+@media (max-width:680px){
+    .quem-somos-conteudo h2 {
+        font-size: 4.5rem;
+    }
+
+    .quem-somos-conteudo h3{
+        font-size: 4rem;
+        font-weight: 600;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 330px;
+        left: 125px;
+    }
+}
+
+
+@media (max-width:540px){
+    .quem-somos-conteudo h2 {
+        font-size: 4.5rem;
+    }
+
+    .quem-somos-conteudo h3{
+        font-size: 4rem;
+        font-weight: 600;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 330px;
+        left: 60px;
+    }
+}
