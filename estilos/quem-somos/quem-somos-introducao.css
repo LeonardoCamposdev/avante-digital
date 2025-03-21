@@ -68,11 +68,6 @@
     }
 
     .quem-somos-conteudo h3{
-        font-size: 4rem;
-        font-weight: 600;
-        letter-spacing: 12px;
-        text-transform: uppercase;
-        position: absolute;
         top: 330px;
         left: 60px;
     }
@@ -85,11 +80,14 @@
 
     .quem-somos-conteudo h3{
         font-size: 3rem;
-        font-weight: 600;
-        letter-spacing: 12px;
-        text-transform: uppercase;
-        position: absolute;
         top: 330px;
-        left: 60px;
+        left: 100px;
+    }
+}
+
+@media (max-width:423px){
+    .quem-somos-conteudo h3{
+        top: 330px;
+        left: 70px;
     }
 }
