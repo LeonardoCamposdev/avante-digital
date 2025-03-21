@@ -1,5 +1,6 @@
 import initMenuMobile  from "./modules/menu-mobile.js";
-import initIntroducaoCarrosel from "./modules/introducao-carrosel.js";
+import initScrollAnimacao from "./modules/scroll.animacao.js";
 
 
 initMenuMobile(); 
+initScrollAnimacao();
