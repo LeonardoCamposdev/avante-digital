@@ -45,7 +45,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 90px;
     align-items: center;
+    margin-bottom: 120px;
 }
+
 
 .quem-somos-especialidades-conteudo2 img{
     border-top-right-radius: 12px;
@@ -57,4 +59,19 @@
     font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+
+.quem-somos-especialidades-conteudo3 img{
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 46px;
+    margin-bottom: 40px;
+}
+
+.quem-somos-especialidades-conteudo3 p{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
