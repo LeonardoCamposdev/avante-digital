@@ -1,6 +1,6 @@
 export function initAnimacaoScrollLeft(){
   const animacao = document.querySelectorAll("[data-anime='scroll-left']");
-
+  console.log(animacao)
   function animaScroll(){
     const windowMetade = window.innerHeight * 0.8;
     animacao.forEach((item)=>{
@@ -31,5 +31,21 @@ export function initAnimacaoScrollRight(){
   
   window.addEventListener('scroll',animaScroll);
 }
-
 //SCROLL RIGHTTTTTT
+
+//SCROLL UPPPPPPP
+export function initAnimacaoScrollUp(){
+  const animacao = document.querySelectorAll("[data-anime='scroll-up']");
+
+  function animaScroll(){
+    const windowMetade = window.innerHeight * 0.5;
+    animacao.forEach((item)=>{
+      const distanciaTopo = item.getBoundingClientRect().top - windowMetade;
+      if(distanciaTopo < 0){
+        item.classList.add('ativo');
+      }
+    })
+  }
+  
+  window.addEventListener('scroll',animaScroll);
+}
