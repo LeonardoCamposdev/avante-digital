@@ -38,7 +38,7 @@ export function initAnimacaoScrollUp(){
   const animacao = document.querySelectorAll("[data-anime='scroll-up']");
 
   function animaScroll(){
-    const windowMetade = window.innerHeight * 0.5;
+    const windowMetade = window.innerHeight * 0.7;
     animacao.forEach((item)=>{
       const distanciaTopo = item.getBoundingClientRect().top - windowMetade;
       if(distanciaTopo < 0){
