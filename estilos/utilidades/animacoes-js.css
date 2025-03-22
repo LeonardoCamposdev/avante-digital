@@ -1,0 +1,139 @@
+.js [data-anime="scroll-left"] {
+    opacity: 0;
+    transform: translate3d(-60px, 0, 0);
+    transition: 0.8s;
+  }
+  
+  .js [data-anime="scroll-left"].ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .js [data-anime="scroll-right"] {
+    opacity: 0;
+    transform: translate3d(20px, 0, 0);
+    transition: 0.8s;
+  }
+  
+  .js [data-anime="scroll-right"].ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .js [data-anime="scroll-up"] {
+    opacity: 0;
+    transform: translate3d(0, 60px, 0);
+    transition: 0.8s;
+  }
+  
+  .js [data-anime="scroll-up"].ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .js [data-anime="scroll-down"] {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+    transition: 0.8s;
+  }
+  
+  .js [data-anime="scroll-down"].ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    z-index: 899;
+  }
+  
+  /* SCROLL ESPECIAL */
+  /* SCROLL ESPECIAL */
+  /* SCROLL ESPECIAL */
+  .js [data-anime="scroll-left-especial"] {
+    opacity: 0;
+    transform: translate3d(-750px, 0, 0);
+    transition: 2s;
+  }
+  
+  .js [data-anime="scroll-left-especial"].ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .js .teste {
+    opacity: 0;
+    transform: translate3d(-800px, 0, 0);
+    transition: 2.3s;
+  }
+  
+  .js .teste.ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .js [data-anime="scroll-right-especial"] {
+    opacity: 0;
+    transform: translate3d(80px, 0, 0);
+    transition: 2s;
+  }
+  
+  .js [data-anime="scroll-right-especial"].ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .js [data-anime="scroll-up-especial"] {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+    transition: 1s;
+  }
+  
+  .js [data-anime="scroll-up-especial"].ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .js [data-anime="scroll-down-especial"] {
+    opacity: 0;
+    transform: translate3d(0, -100px, 0);
+    transition: 1s;
+  }
+  
+  .js [data-anime="scroll-down-especial"].ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  
+  /* ANIMAÇÃO AO START DA TELA  */
+  .js .fadeInDown {
+    transform: translate3d(0, -20px, 0);
+  }
+  .js .fadeInUp {
+    transform: translate3d(0, 20px, 0);
+  }
+  .js .fadeInRight {
+    transform: translate3d(20px, 0, 0);
+  }
+  .js .fadeInLeft {
+    transform: translate3d(-20px, 0, 0);
+  }
+  
+  .js [data-anime] {
+    opacity: 0;
+  }
+  
+  .js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform 0.8s, opacity 0.8s;
+  }
+  
+  .js .js-scroll {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+    transition: 0.5s;
+  }
+  
+  .js-scroll.ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  /* ANIMAÇÃO AO START DA TELA  */

@@ -5,6 +5,7 @@
 
 @import "utilidades/typography.css";
 @import "utilidades/coloors.css";
+@import "./utilidades/animacoes-js.css";
 
 
 @import "./home/introducao.css";

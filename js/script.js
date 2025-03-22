@@ -1,6 +1,7 @@
 import initMenuMobile  from "./modules/menu-mobile.js";
-import initScrollAnimacao from "./modules/scroll.animacao.js";
+import { initAnimacaoScrollLeft, initAnimacaoScrollRight, initAnimacaoScrollUp, initAnimacaoScrollDown } from "./modules/animacao-scroll.js";
 
 
 initMenuMobile(); 
-initScrollAnimacao();
+initScrollAnimacaoLeft();
+initScrollAnimacaoRight();
