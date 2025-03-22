@@ -3,5 +3,5 @@ import { initAnimacaoScrollLeft, initAnimacaoScrollRight, initAnimacaoScrollUp, 
 
 
 initMenuMobile(); 
-initScrollAnimacaoLeft();
-initScrollAnimacaoRight();
+initAnimacaoScrollLeft();
+initAnimacaoScrollRight();
