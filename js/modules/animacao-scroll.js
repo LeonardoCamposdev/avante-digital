@@ -49,3 +49,22 @@ export function initAnimacaoScrollUp(){
   
   window.addEventListener('scroll',animaScroll);
 }
+//SCROLL UPPPPPPP
+
+//SCROLL DOWNNN
+export function initAnimacaoScrollDown(){
+  const animacao = document.querySelectorAll("[data-anime='scroll-down']");
+
+  function animaScroll(){
+    const windowMetade = window.innerHeight * 0.7;
+    animacao.forEach((item)=>{
+      const distanciaTopo = item.getBoundingClientRect().top - windowMetade;
+      if(distanciaTopo < 0){
+        item.classList.add('ativo');
+      }
+    })
+  }
+  
+  window.addEventListener('scroll',animaScroll);
+}
+//SCROLL DOWNNN

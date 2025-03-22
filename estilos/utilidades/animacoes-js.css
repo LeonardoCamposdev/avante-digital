@@ -1,7 +1,7 @@
 .js [data-anime="scroll-left"] {
     opacity: 0;
     transform: translate3d(-60px, 0, 0);
-    transition: 0.8s;
+    transition: 0.9s;
   }
   
   .js [data-anime="scroll-left"].ativo {
@@ -12,7 +12,7 @@
   .js [data-anime="scroll-right"] {
     opacity: 0;
     transform: translate3d(20px, 0, 0);
-    transition: 0.8s;
+    transition: 0.9s;
   }
   
   .js [data-anime="scroll-right"].ativo {
@@ -23,7 +23,7 @@
   .js [data-anime="scroll-up"] {
     opacity: 0;
     transform: translate3d(0, 60px, 0);
-    transition: 0.8s;
+    transition: 0.9s;
   }
   
   .js [data-anime="scroll-up"].ativo {
@@ -34,7 +34,7 @@
   .js [data-anime="scroll-down"] {
     opacity: 0;
     transform: translate3d(0, -60px, 0);
-    transition: 0.8s;
+    transition: 0.9s;
   }
   
   .js [data-anime="scroll-down"].ativo {
