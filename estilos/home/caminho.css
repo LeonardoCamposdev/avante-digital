@@ -93,13 +93,13 @@
   }
 
   .caminhos-lista li{
-    margin: 40px;
+    margin: 20px;
   }
 }
 
 @media (max-width:640px){
     
   .caminhos-lista li{
-    margin: 20px;
+    margin: 10px;
   }
 }

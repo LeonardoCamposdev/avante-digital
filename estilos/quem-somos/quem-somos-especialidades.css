@@ -100,10 +100,10 @@
         margin-bottom: 40px;
     }
 
-    .quem-somos-especialidades-conteudo h1, p{
+    .quem-somos-especialidades-conteudo h1, .quem-somos-especialidades-conteudo p{
         text-align: center;
     }
-
+    
     .quem-somos-especialidades-conteudo img{
         margin: 0 auto;
         display: block;

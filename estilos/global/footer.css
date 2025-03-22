@@ -38,6 +38,12 @@
     box-shadow: 0px 1px 14px 3px var(--cor-4);
 }
 
+.footer-contato h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
 .footer-contato a{
     display: block;
     margin-bottom: 10px;
