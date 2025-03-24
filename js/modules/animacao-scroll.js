@@ -1,6 +1,5 @@
 export function initAnimacaoScrollLeft(){
   const animacao = document.querySelectorAll("[data-anime='scroll-left']");
-  console.log(animacao)
   function animaScroll(){
     const windowMetade = window.innerHeight * 0.8;
     animacao.forEach((item)=>{
