@@ -11,11 +11,10 @@ export default function initAnimacaoNumeros() {
         start = start + incremento;
         numero.innerText = start;
         if (start > total) {
-          console.log(start);
           numero.innerText = total;
           clearInterval(timer);
         }
-      }, 28 * Math.random());
+      }, 27 * Math.random());
     });
   }
 
