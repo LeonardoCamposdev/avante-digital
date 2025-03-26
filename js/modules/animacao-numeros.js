@@ -1,16 +1,4 @@
 export default function initAnimacaoNumeros() {
-<<<<<<< HEAD
-  function animaNumeros(){
-    const numeros = document.querySelectorAll('[data-numero]');
-    numeros.forEach((numero)=>{
-      const total = +numero.innerText;
-      console.log(total);
-    })
-  }
-
-  animaNumeros();
-}
-=======
   function animaNumeros() {
     const numeros = document.querySelectorAll("[data-numero]");
     numeros.forEach((numero) => {
@@ -42,4 +30,4 @@ export default function initAnimacaoNumeros() {
 
   observer.observe(observerTarget, { attributes: true });
 }
->>>>>>> d1c6598367f4244cb4e97c7248ae3a26afb6dbe2
+
