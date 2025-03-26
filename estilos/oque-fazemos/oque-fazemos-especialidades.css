@@ -1,0 +1,32 @@
+.oque-fazemos-especialidades-bg{
+    background-color: var(--cor-1);
+}
+
+.oque-fazemos-especialidades-conteudo h1{
+    font-size: 2.5rem;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+.especialidades-servicos-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0px 20px 100px 20px;
+}
+
+.especialidades-servicos-lista li{
+    background-color: var(--cor-5);
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.especialidades-servicos-lista li img {
+    margin-bottom: 8px;
+}
+.especialidades-servicos-lista li h2 {
+    margin-bottom: 10px;
+}

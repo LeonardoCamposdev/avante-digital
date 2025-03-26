@@ -1,0 +1,93 @@
+.oque-fazemos-bg{
+    background: url(../../images/fundo-oque-fazemos.jpg);
+    background-position: center left;
+    background-size: cover;
+}
+
+.oque-fazemos-conteudo{
+    height: 280px;
+}
+
+.oque-fazemos-conteudo h1{
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.oque-fazemos-conteudo h2{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.oque-fazemos-conteudo h3{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 330px;
+    left: 295px;
+}
+
+
+@media (max-width:830px){
+    .quem-somos-conteudo h3{
+        font-size: 5rem;
+        font-weight: 600;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 330px;
+        left: 195px;
+    }
+}
+
+@media (max-width:680px){
+    .quem-somos-conteudo h2 {
+        font-size: 4.5rem;
+    }
+
+    .quem-somos-conteudo h3{
+        font-size: 4rem;
+        font-weight: 600;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 330px;
+        left: 125px;
+    }
+}
+
+
+@media (max-width:540px){
+    .quem-somos-conteudo h2 {
+        font-size: 4.5rem;
+    }
+
+    .quem-somos-conteudo h3{
+        top: 330px;
+        left: 60px;
+    }
+}
+
+@media (max-width:500px){
+    .quem-somos-conteudo h2 {
+        font-size: 3rem;
+    }
+
+    .quem-somos-conteudo h3{
+        font-size: 3rem;
+        top: 330px;
+        left: 100px;
+    }
+}
+
+@media (max-width:423px){
+    .quem-somos-conteudo h3{
+        top: 330px;
+        left: 70px;
+    }
+}
