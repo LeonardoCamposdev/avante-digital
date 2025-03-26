@@ -11,7 +11,6 @@ export function initAnimacaoScrollLeft(){
   }
   
   window.addEventListener('scroll',animaScroll);
-  
 }
 
 //SCROLL RIGHTTTTTT
