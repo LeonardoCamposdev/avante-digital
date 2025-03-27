@@ -69,19 +69,17 @@ p {
 }
 
 .especialidades-servicos-lista li a:hover {
-  color: var(--cor-3);
+  color: var(--cor-7);
 }
 
 @media (max-width:980px){
   .especialidades-servicos-lista {
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
   }
 }
 
 @media (max-width:620px){
   .especialidades-servicos-lista {
     grid-template-columns: 1fr;
-    gap: 20px;
   }
 }
