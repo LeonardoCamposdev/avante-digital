@@ -1,32 +1,69 @@
-.oque-fazemos-especialidades-bg{
-    background-color: var(--cor-1);
+.oque-fazemos-especialidades-bg {
+  background-color: var(--cor-1);
 }
 
-.oque-fazemos-especialidades-conteudo h1{
-    font-size: 2.5rem;
-    padding-top: 80px;
-    margin-bottom: 10px;
+.oque-fazemos-especialidades-conteudo h1 {
+  font-size: 2.5rem;
+  padding-top: 80px;
+  margin-bottom: 10px;
 }
 
 .especialidades-servicos-lista {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0px 20px 100px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px 100px 20px;
 }
 
-.especialidades-servicos-lista li{
-    background-color: var(--cor-5);
-    padding: 16px;
-    border-radius: 12px;
-    text-align: center;
+.especialidades-servicos-lista li {
+  background-color: var(--cor-5);
+  padding: 16px;
+  border-radius: 12px;
+  text-align: left;
+  transition: all 1000ms;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
 }
+
+.especialidades-servicos-lista li:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 4px 5px 17px -4px #72160a;
+}
+
+.especialidades-servicos-lista li::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #6b1c1c;
+  color: #000;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.especialidades-servicos-lista li:hover::before {
+    width: 110%;
+  }
 
 .especialidades-servicos-lista li img {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
-.especialidades-servicos-lista li h2 {
-    margin-bottom: 10px;
+
+.especialidades-servicos-lista li h2,
+p {
+  margin-bottom: 10px;
+}
+
+.especialidades-servicos-lista li a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
