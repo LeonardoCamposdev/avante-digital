@@ -1,7 +1,6 @@
 export default function initIntroducaoCarrosel(){
   const imgs = document.querySelector("#img");
   const img = document.querySelectorAll("#img img");
-  console.log(img);
 
   let idx = 0;
 
