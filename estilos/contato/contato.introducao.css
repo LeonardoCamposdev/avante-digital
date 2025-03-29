@@ -1,5 +1,5 @@
 .contato-bg{
-    background: url(../../images/fundo-quem-somos.jpg);
+    background: url(../../images/fundo-contato.jpg);
     background-position: center left;
     background-size: cover;
 }
@@ -24,16 +24,6 @@
     position: relative;
 }
 
-.contato-conteudo h3{
-    font-size: 5rem;
-    font-weight: 600;
-    letter-spacing: 12px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 5px #0000009f;
-    position: absolute;
-    top: 330px;
-    left: 295px;
-}
 
 @media (max-width:830px){
     .contato-conteudo h3{
