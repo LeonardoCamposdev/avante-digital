@@ -1,21 +1,21 @@
-.quem-somos-bg{
+.contato-bg{
     background: url(../../images/fundo-quem-somos.jpg);
     background-position: center left;
     background-size: cover;
 }
 
-.quem-somos-conteudo{
+.contato-conteudo{
     height: 280px;
 }
 
-.quem-somos-conteudo h1{
+.contato-conteudo h1{
     font-size: 3rem;
     font-weight: 500;
     text-transform: uppercase;
     text-shadow: 1px 1px 5px #140d0d9f;
 }
 
-.quem-somos-conteudo h2{
+.contato-conteudo h2{
     font-size: 5rem;
     font-weight: 600;
     letter-spacing: 12px;
@@ -24,7 +24,7 @@
     position: relative;
 }
 
-.quem-somos-conteudo h3{
+.contato-conteudo h3{
     font-size: 5rem;
     font-weight: 600;
     letter-spacing: 12px;
@@ -35,9 +35,8 @@
     left: 295px;
 }
 
-
 @media (max-width:830px){
-    .quem-somos-conteudo h3{
+    .contato-conteudo h3{
         font-size: 5rem;
         font-weight: 600;
         letter-spacing: 12px;
@@ -49,11 +48,11 @@
 }
 
 @media (max-width:680px){
-    .quem-somos-conteudo h2 {
+    .contato-conteudo h2 {
         font-size: 4.5rem;
     }
 
-    .quem-somos-conteudo h3{
+    .contato-conteudo h3{
         font-size: 4rem;
         font-weight: 600;
         letter-spacing: 12px;
@@ -66,22 +65,22 @@
 
 
 @media (max-width:540px){
-    .quem-somos-conteudo h2 {
+    .contato-conteudo h2 {
         font-size: 4.5rem;
     }
 
-    .quem-somos-conteudo h3{
+    .contato-conteudo h3{
         top: 330px;
         left: 60px;
     }
 }
 
 @media (max-width:500px){
-    .quem-somos-conteudo h2 {
+    .contato-conteudo h2 {
         font-size: 3rem;
     }
 
-    .quem-somos-conteudo h3{
+    .contato-conteudo h3{
         font-size: 3rem;
         top: 330px;
         left: 100px;
@@ -89,7 +88,7 @@
 }
 
 @media (max-width:423px){
-    .quem-somos-conteudo h3{
+    .contato-conteudo h3{
         top: 330px;
         left: 70px;
     }

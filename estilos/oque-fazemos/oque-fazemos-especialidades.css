@@ -19,7 +19,7 @@
 
 .especialidades-servicos-lista li {
   background-color: var(--cor-5);
-  padding: 16px;
+  padding: 36px;
   border-radius: 12px;
   text-align: left;
   transition: all 1000ms;

@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script>
+    document.documentElement.className += " js";
+  </script>
+  <link rel="shortcut icon" href="icons/logo-teste.png" type="image/x-icon" />
+  <link rel="stylesheet" href="estilos/style.css" />
+  <title>Agência Avante - Contato</title>
 </head>
 <body>
-  <h1>eita</h1>
+  <header class="header-bg">
+    <div class="header-conteudo">
+      <div class="header-img">
+        <a href="./"><img src="icons/logo-teste.png" alt="logo" /></a>
+      </div>
+      <nav class="header-menu">
+        <button class="font-saira" data-menu="button" aria-expanded="false" aria-controls="menu">Menu
+        </button>
+        <ul class="font-orbiton" data-menu="list" id="menu">
+          <li><a href="./" class="cor-0">Início</a></li>
+          <li><a href="./quem-somos.html" class="cor-0">Quem somos</a></li>
+          <li><a href="/oque-fazemos.html" class="cor-0">O que fazemos</a></li>
+          <li><a href="./contato.html" class="cor-0">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contato-bg">
+    <div class="contato-introducao">
+      <div class="container">
+        <div class="contato-conteudo">
+          <h1 class="font-saira cor-1 fadeInDown" data-anime="700">Nossos</h1>
+          <h2 class="font-orbiton cor-0 fadeInLeft" data-anime="800">Contatos</h2>
+          <h3 class="font-orbiton cor-3 fadeInRight" data-anime="1000">Avante</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-bg">
+    <div class="container">
+      <div class="footer-conteudo">
+        <div class="footer-descricao">
+          <h1 class="font-saira cor-0">Aceleramos seu negócio no mundo digital</h1>
+          <a href="./"><button class="button-padrao2 font-saira cor-0">Saiba mais sobre nós</button></a>
+        </div>
+
+        <div class="footer-endereco">
+          <h2 class="font-saira cor-0">Endereço</h2>
+          <p class="font-saira cor-0">Avenida Jonas Camelo– Buique – PE <br> CEP: 56520000</p>
+          <ul class="footer-redes">
+            <a href="#">
+              <li><img src="./icons/facebook.png" alt="facebook"></li>
+            </a>
+            <a href="#">
+              <li><img src="./icons/instagram.png" alt="instagram"></li>
+            </a>
+            <a href="#">
+              <li><img src="./icons/linkedin.png" alt="linkedin"></li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="footer-contato">
+          <h2 class="font-saira cor-0">Contato</h2>
+          <a href="mailto:contatoavante-digital@gmail.com" class="font-saira cor-0">contatoavante-digital@gmail.com</a>
+          <a href="tel:+(87)9999-9999" class="font-saira cor-0">(87)9999-9999</a>
+        </div>
+      </div>
+
+      <p class="footer-creditos font-saira cor-0">Agência Avante Digital – Performance em <br> Marketing Digital © Todos
+        os Direitos <br> Reservados</p>
+    </div>
+  </footer>
 </body>
+<script type="module" src="./js/script.js"></script>
 </html>
