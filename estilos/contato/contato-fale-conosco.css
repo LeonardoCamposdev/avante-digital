@@ -1,0 +1,36 @@
+.contato-fale-conosco-bg {
+    background-color: var(--cor-1);
+}
+
+.contato-fale-conosco-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.contato-fale-conosco-conteudo h1 {
+    font-size: 2.5rem;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+.contato-fale-conosco-conteudo p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.form{
+    background-color: var(--cor-5);
+    padding: 36px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+
+.form h1{
+    font-size: 1.6rem;
+}
