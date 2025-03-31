@@ -32,5 +32,68 @@
 
 
 .form h1{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.form input{
+    font-family: "Lexend", sans-serif;
+    font-size: 1rem;
+    color: #d3cbcb;
+    background-color: var(--cor-8);
+    padding: 16px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #888888;
+    width: 90%;
+}
+
+.form input:focus{
+    border-bottom: 1px solid var(--cor-4);
+    outline: none;
+}
+
+.form textarea{
+    font-family: "Lexend", sans-serif;
+    font-size: 1rem;
+    color: #d3cbcb;
+    background-color: var(--cor-8);
+    border: none;
+    border-bottom: 1px solid #888888;
+    padding: 16px;
+    width: 90%;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.form textarea:focus{
+    border-bottom: 1px solid var(--cor-4);
+    outline: none;
+}
+
+.form .input-check{
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.form .check{
+    margin-bottom: 0px;
+    width: 26px;
+    border: 5px solid black;
+}
+
+.form .input-check span{
+    font-size: 0.65rem;
+}
+
+.form button{
+    font-size: 1rem;
+    padding: 16px 32px;
 }
