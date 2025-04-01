@@ -21,6 +21,11 @@
     margin-bottom: 20px;
 }
 
+.contato-lista p{
+    border-bottom: 1px solid #888888;
+    padding-bottom: 15px;
+}
+
 
 .form{
     background-color: var(--cor-5);
