@@ -75,7 +75,7 @@
 .form .input-check{
     display: flex;
     padding: 12px;
-    height: 40px;
+    height: 50px;
     justify-content: space-between;
     align-items: center;
     border-radius: 4px;
@@ -98,14 +98,32 @@
 .form .input-check img{
     position: absolute;
     top: 6px;
-    right: 30px;
+    right: 22px;
 }
 
 .form .input-check span{
     font-size: 0.65rem;
+    color: #413e3e;
     position: absolute;
     top: 40px;
     right: 10px;
+}
+
+.form .input-check .span-pravacidade{
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    font-size: 0.5rem;
+    
+}
+
+.form .input-check .span-pravacidade:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form .input-check .span-pravacidade a{
+    color: #020202;
 }
 
 .form button{
@@ -120,7 +138,7 @@
     }
 
     .form .input-check{
-        width: 70%;
+        width: 80%;
     }
     
 }
