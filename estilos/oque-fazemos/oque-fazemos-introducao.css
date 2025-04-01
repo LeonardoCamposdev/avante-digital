@@ -24,43 +24,10 @@
     position: relative;
 }
 
-.oque-fazemos-conteudo h3{
-    font-size: 5rem;
-    font-weight: 600;
-    letter-spacing: 12px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 5px #0000009f;
-    position: absolute;
-    top: 330px;
-    left: 295px;
-}
-
-
-@media (max-width:950px){
-    .oque-fazemos-conteudo h3{
-        font-size: 5rem;
-        font-weight: 600;
-        letter-spacing: 12px;
-        text-transform: uppercase;
-        position: absolute;
-        top: 330px;
-        left: 125px;
-    }
-}
 
 @media (max-width:790px){
     .oque-fazemos-conteudo h2 {
         font-size: 4.5rem;
-    }
-
-    .oque-fazemos-conteudo h3{
-        font-size: 4rem;
-        font-weight: 600;
-        letter-spacing: 12px;
-        text-transform: uppercase;
-        position: absolute;
-        top: 330px;
-        left: 125px;
     }
 }
 
@@ -70,21 +37,11 @@
         font-size: 4.5rem;
     }
 
-    .oque-fazemos-conteudo h3{
-        top: 330px;
-        left: 60px;
-    }
 }
 
 @media (max-width:610px){
     .oque-fazemos-conteudo h2 {
-        font-size: 4em;
-    }
-
-    .oque-fazemos-conteudo h3{
-        font-size: 3.5rem;
-        top: 330px;
-        left: 50px;
+        font-size: 4rem;
     }
 }
 
@@ -92,32 +49,16 @@
     .oque-fazemos-conteudo h2 {
         font-size: 3.5rem;
     }
-
-    .oque-fazemos-conteudo h3{
-        font-size: 3.2rem;
-        top: 330px;
-        left: 20px;
-    }
 }
 
 @media (max-width:478px){
     .oque-fazemos-conteudo h2 {
-        font-size: 2.8em;
-    }
-    .oque-fazemos-conteudo h3{
-        font-size: 2.8rem;
-        top: 330px;
-        left: 20px;
+        font-size: 3rem;
     }
 }
 
-@media (max-width:442px){
+@media (max-width:427px){
     .oque-fazemos-conteudo h2 {
-        font-size: 2.5em;
-    }
-    .oque-fazemos-conteudo h3{
-        font-size: 2.5rem;
-        top: 330px;
-        left: 20px;
+        font-size: 2.8rem;
     }
 }

@@ -26,60 +26,32 @@
 
 
 @media (max-width:830px){
-    .contato-conteudo h3{
+    .contato-conteudo h2{
         font-size: 5rem;
-        font-weight: 600;
-        letter-spacing: 12px;
-        text-transform: uppercase;
-        position: absolute;
-        top: 330px;
-        left: 195px;
     }
 }
 
-@media (max-width:680px){
-    .contato-conteudo h2 {
-        font-size: 4.5rem;
-    }
-
-    .contato-conteudo h3{
+@media (max-width:745px){
+    .contato-conteudo h2{
         font-size: 4rem;
-        font-weight: 600;
-        letter-spacing: 12px;
-        text-transform: uppercase;
-        position: absolute;
-        top: 330px;
-        left: 125px;
     }
 }
 
 
 @media (max-width:540px){
-    .contato-conteudo h2 {
-        font-size: 4.5rem;
-    }
-
-    .contato-conteudo h3{
-        top: 330px;
-        left: 60px;
+    .contato-conteudo h2{
+        font-size: 3.5rem;
     }
 }
 
 @media (max-width:500px){
-    .contato-conteudo h2 {
+    .contato-conteudo h2{
         font-size: 3rem;
-    }
-
-    .contato-conteudo h3{
-        font-size: 3rem;
-        top: 330px;
-        left: 100px;
     }
 }
 
-@media (max-width:423px){
-    .contato-conteudo h3{
-        top: 330px;
-        left: 70px;
+@media (max-width:450px){
+    .contato-conteudo h2{
+        font-size: 2.8rem;
     }
 }
