@@ -14,6 +14,8 @@
     margin-bottom: 10px;
 }
 
+
+
 .contato-fale-conosco-conteudo p {
     font-size: 1.1rem;
     line-height: 1.8;
@@ -21,9 +23,21 @@
     margin-bottom: 20px;
 }
 
+
 .contato-lista p{
     border-bottom: 1px solid #888888;
     padding-bottom: 15px;
+    padding-left: 40px;
+    position: relative;
+    top: -5px;
+}
+
+.contato-lista a:hover{
+    color: var(--cor-4);
+}
+
+.contato-lista img{
+    position: absolute;
 }
 
 
