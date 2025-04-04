@@ -16,9 +16,9 @@
 }
 
 .modal{
-    min-width: 300px;
     background-color: white;
     padding: 40px;
+    margin: 30px;
     border: 10px solid #fb5;
     box-shadow: 0 0 10px white;
     position: relative;
